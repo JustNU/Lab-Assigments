@@ -45,7 +45,7 @@ const changeLineColor = function () {
     }
 }
 
-const countMarkInTable = function () {
+const changeBadgeInnerText = function () {
     const badges = document.getElementsByClassName("badge");
 
     console.log(badges.length)
@@ -67,4 +67,4 @@ const countMarkInTable = function () {
 
 button.addEventListener("click", randomizeEntries);
 button.addEventListener("click", changeLineColor);
-button.addEventListener("click", countMarkInTable);
+button.addEventListener("click", changeBadgeInnerText);
