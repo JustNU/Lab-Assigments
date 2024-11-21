@@ -46,7 +46,7 @@
         emailField.classList.remove('is-valid');
       }
 
-      // russian phone number regex calidation
+      // russian phone number regex validation
       if (phoneRegex.test(phoneNumberField.value)) {
         phoneNumberField.classList.remove('is-invalid');
         phoneNumberField.classList.add('is-valid');
