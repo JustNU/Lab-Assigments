@@ -1,0 +1,10 @@
+.form-authorization {
+    transform: translate(0, 10vh);
+    background-image: var(--bs-gradient);
+}
+
+@media (min-width: 1200px) {
+    .form-authorization {
+        width: 50% !important;
+    }
+}
